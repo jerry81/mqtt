@@ -36,3 +36,11 @@ message filtering - 3 ways -
 
 ## vs message queues 
 
+mq: queue stores message until consumed 
+mqtt: depends on if there is subscriber 
+
+mq: message only consumed by one client
+mqtt: broadcast to every subscriber
+
+mq: queue named and must be created explicitly 
+mqtt:  can be created on the fly 
